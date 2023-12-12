@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    margin: 0px 80px;
+}
+
+.container{
+    background-color: black;
+    padding: 10px 50px;
+    margin: 10px auto;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.fa-hand{
+    font-size: 200px;
+    color: darkgray;
+    background-color: black;
+    border-radius: 60px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+.fa-hand-back-fist{
+    font-size: 200px;
+    color: darkgray;
+    background-color: black;
+    border-radius: 60px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.fa-hand-scissors{
+    font-size: 200px;
+    color: darkgrey;
+    background-color: black;
+    border-radius: 60px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.result{
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 5px;
+    color: darkgrey;
+    padding: 10px;
+    margin: 10px;
+}
+
+.score{
+    font-size: 16px;
+    color: darkgrey;
+    text-align: center;
+    display:  flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.cpuResult{
+    background-color:black;
+    margin: 50px;
+}
+
+.divButton {
+    background-color: black;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 10px;
+}
+
+.fa-question{
+    font-size: 200px;
+    color: darkgray;
+    background-color: black;
+}
+
+.nameGame {
+    font-size: 30px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    color: darkgrey;
+    padding: 20px;
+    margin: 10px;
+}
+.finalResult {
+    font-size: 35px;
+    font-family: 'Chakra Petch', sans-serif;
+    color: darkgrey;
+    text-align: center;
+    background-color: rgb(91, 91, 246);
+}
+
+.finalResult:hover{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(91, 91, 246);
+    box-sizing: 2px 4px rgba(128, 128, 128, 0.429);
+    cursor: pointer;
+}
+
+.fa-hand:hover{
+    color: rgb(128, 239, 174);
+    font-size: 230px;
+}
+
+.fa-hand-back-fist:hover{
+    color: rgb(128, 239, 174);
+    font-size: 230px;
+
+}
+
+.fa-hand-scissors:hover{
+    color: rgb(128, 239, 174);
+    font-size: 230px;
+}
